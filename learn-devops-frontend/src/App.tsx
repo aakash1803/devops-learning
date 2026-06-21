@@ -21,7 +21,7 @@ fetch(`http://localhost:8080/api/v1/hello`)
           <img src={reactLogo} className="framework" alt="React logo" />
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
-        <p>{message}</p>
+        <p>Response from the API:http://localhost:8080/api/v1/hello {message}</p>
       </section>
 
       <div className="ticks"></div>
